@@ -39,3 +39,7 @@ dropdownItems.forEach(dropdownItem => {
         document.querySelector('.navbar-wrapper').style.background = 'transparent';
     })
 })
+
+// Display current year
+document.getElementById('current-year').textContent = new Date().getFullYear();
+document.getElementById('current-year').style.display = 'inline';
